@@ -46,3 +46,30 @@
     75%{top: 75px;}
     100%{top: 225px;}
 }
+
+h1{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center; /* Horizontal center */
+    align-items: center; /* Vertical center */
+    height: 200px; /* Required for vertical centering */
+    border: 2px solid #333;
+}
+
+.button{
+    border: 5px solid black;
+    width: 80px;
+    height: 60px;
+    border-radius: 20%;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+h3{
+    text-align: center;
+}
